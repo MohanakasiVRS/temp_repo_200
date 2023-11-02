@@ -11,6 +11,7 @@ class Login(BasePage):
     Logout_dropdwn_btn = (By.XPATH, "//*[@class='oxd-userdropdown-name']")
     Logout_link = (By.LINK_TEXT, "Logout")
     print()
+    print()
 
     def __init__(self, driver):
         super().__init__(driver)
