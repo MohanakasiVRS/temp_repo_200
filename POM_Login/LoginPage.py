@@ -10,7 +10,7 @@ class Login(BasePage):
     login_submit_btn = (By.XPATH, "//*[@type='submit']")
     Logout_dropdwn_btn = (By.XPATH, "//*[@class='oxd-userdropdown-name']")
     Logout_link = (By.LINK_TEXT, "Logout")
-    print('kasi changes')
+
 
     def __init__(self, driver):
         super().__init__(driver)
